@@ -1,0 +1,4 @@
+BROKER = "fe87a7fe382f4d13a8084787e55bd1ca.s1.eu.hivemq.cloud"
+PORT = 8883
+TOPIC = "MQTT_ACTIVITY_1"
+QOS = 0
