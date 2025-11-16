@@ -1,4 +1,4 @@
-from amqp.utils.timestamp_utils import generate_timestamp
+from utils.timestamp_utils import generate_timestamp
 from client.amqp_client import AMQPClient
 from constants.constants import PRIORITY_QUEUES
 
