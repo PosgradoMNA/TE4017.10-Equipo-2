@@ -32,7 +32,6 @@ class Consumer(AMQPClient):
             self.close()
 
     def on_high_priority(self, channel, method, properties, body):
-
         print(f"\n[{generate_timestamp()}] HIGH PRIORITY MESSAGE:")
         print(f"Payload: {body.decode()}")
         print(f"Queue: {method.routing_key}")
